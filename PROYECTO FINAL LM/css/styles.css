@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+#productos {
+    margin: 20px;
+    text-align: center;
+}
+
+.titulo-productos {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.productos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.producto {
+    width: calc(25% - 20px);
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+}
+
+.producto h3 {
+    margin-top: 10px;
+}
+
+.producto p {
+    margin: 5px 0;
+}
+
+.producto button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#contacto {
+    margin: 20px;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#acerca-de {
+    margin: 20px;
+    text-align: center;
+}
+
+#acerca-de h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: left; 
+}
+
+.acerca-de-contenido {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    gap: 20px;
+    border: 1px solid #ccc; 
+    padding: 20px; 
+    box-sizing: border-box; 
+}
+
+.acerca-de-contenido img {
+    width: 400px; 
+    height: auto;
+    order: 2;
+}
+
+.acerca-de-contenido > * {
+    width: 50%; 
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
