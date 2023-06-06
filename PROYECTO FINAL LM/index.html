@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Tienda en línea</title>
+    <title>PCs ZAHINOS</title>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <script src="js/js.js"></script>
 </head>
 <body>
-
-    <header>
-        <h1>Tienda en línea</h1>
+    <header id="inicio">
+        <h1>PCs Zahinos</h1>
+        <style>
+            header {
+                background-image: url("img/header.jpg");
+                background-size: cover;
+            }
+        </style>
     </header>
     
     <nav>
         <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Productos</a></li>
-            <li><a href="#">Acerca de</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#acerca-de">Acerca de</a></li>
+            <li><a href="#contacto">Contacto</a></li>
         </ul>
     </nav>
     
@@ -24,68 +29,118 @@
         <h2 class="titulo-productos">Nuestros productos</h2>
         <div class="productos-container">
         <div class="producto">
-            <img src="img/pc1.webp" alt="Producto 1">
-            <h3>Producto 1</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <p>Precio: $99.99</p>
+            <div class="producto-imagenes">
+                <img src="img/pc1.webp" alt="Producto 1">
+                <img src="img/pc1_2.webp" alt="Imagen 2 del Producto 1">
+                <img src="img/pc1_3.webp" alt="Imagen 3 del Producto 1">
+                <div class="prev-arrow">&#10094;</div>
+                <div class="next-arrow">&#10095;</div>
+            </div>
+            <h3>Alurin AMD Ryzen 5 5600G/8GB/500GB SSD + Windows 11 Home</h3>
+            <p>Precio: $479,00</p>
+            <button>Agregar al carrito</button>
+        </div>  
+        
+        <div class="producto">
+            <div class="producto-imagenes">
+                <img src="img/pc2.webp" alt="Producto 2">
+                <img src="img/pc2_2.webp" alt="Imagen 2 del Producto 2">
+                <img src="img/pc2_3.webp" alt="Imagen 3 del Producto 2">
+                <div class="prev-arrow">&#10094;</div>
+                <div class="next-arrow">&#10095;</div>
+            </div>
+            <h3>Gold Élite Intel Core i5-11400F/16GB <br> 500GBSSD/RTX3060</h3>
+            <p>Precio: $899,00</p>
+            <button>Agregar al carrito</button>
+        </div>
+
+        <div class="producto">
+            <div class="producto-imagenes">
+                <img src="img/pc3.webp" alt="Producto 3">
+                <img src="img/pc3_2.webp" alt="Imagen 2 del Producto 3">
+                <img src="img/pc3_3.webp" alt="Imagen 3 del Producto 3">
+                <div class="prev-arrow">&#10094;</div>
+                <div class="next-arrow">&#10095;</div>
+            </div>
+            <h3>Silver AMD Ryzen 5 5500/16GB/500GB SSD/RTX 3050</h3>
+            <p>Precio: $839,00</p>
+            <button>Agregar al carrito</button>
+        </div>
+
+        <div class="producto">
+            <div class="producto-imagenes">
+                <img src="img/pc4.webp" alt="Producto 4">
+                <img src="img/pc4_2.webp" alt="Imagen 2 del Producto 4">
+                <div class="prev-arrow">&#10094;</div>
+                <div class="next-arrow">&#10095;</div>
+            </div>
+            <h3>AlurinPC Intel Core i5 10400/16GB/500GB SSD</h3>
+            <p>Precio: $429,00</p>
+            <button>Agregar al carrito</button>
+        </div>
+
+        <div class="producto">
+            <div class="producto-imagenes">
+                <img src="img/pc5.webp" alt="Producto 5">
+                <img src="img/pc5_2.webp" alt="Imagen 2 del Producto 5">
+                <img src="img/pc5_3.webp" alt="Imagen 3 del Producto 5">
+                <div class="prev-arrow">&#10094;</div>
+                <div class="next-arrow">&#10095;</div>
+            </div>
+            <h3>Tempest PC Lite Intel Core i5-10400F/16GB/500GB SSD/GTX1660S - Negro</h3>
+            <p>Precio: $649,00</p>
+            <button>Agregar al carrito</button>
+        </div>
+
+        <div class="producto">
+            <div class="producto-imagenes">
+                <img src="img/pc6.webp" alt="Producto 6">
+                <img src="img/pc6_2.webp" alt="Imagen 2 del Producto 6">
+                <img src="img/pc6_3.webp" alt="Imagen 3 del Producto 6">
+                <div class="prev-arrow">&#10094;</div>
+                <div class="next-arrow">&#10095;</div>
+            </div>
+            <h3>Gold Elite AMD Ryzen 5 5600X/16GB/1TB SSD/RTX 3060</h3>
+            <p>Precio: $1199,00</p>
             <button>Agregar al carrito</button>
         </div>
         
         <div class="producto">
-            <img src="img/pc2.webp" alt="Producto 2">
-            <h3>Producto 2</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <p>Precio: $49.99</p>
+            <div class="producto-imagenes">
+                <img src="img/pc7.webp" alt="Producto 7">
+                <img src="img/pc7_2.webp" alt="Imagen 2 del Producto 7">
+                <img src="img/pc7_3.webp" alt="Imagen 3 del Producto 7">
+                <div class="prev-arrow">&#10094;</div>
+                <div class="next-arrow">&#10095;</div>
+            </div>
+            <h3>Imperial Intel Core i7-13700F/32GB/1TB SSD/RTX 3060Ti Limited Edition</h3>
+            <p>Precio: $1767,00</p>
             <button>Agregar al carrito</button>
         </div>
 
         <div class="producto">
-            <img src="img/pc3.webp" alt="Producto 3">
-            <h3>Producto 2</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <p>Precio: $49.99</p>
+            <div class="producto-imagenes">
+                <img src="img/pc8.webp" alt="Producto 8">
+                <img src="img/pc8_2.webp" alt="Imagen 2 del Producto 8">
+                <img src="img/pc8_3.webp" alt="Imagen 3 del Producto 8">
+                <div class="prev-arrow">&#10094;</div>
+                <div class="next-arrow">&#10095;</div>
+            </div>
+            <h3>Gold Intel Core i5 11600K/16GB/500GB SSD + 1TB/RTX3070TI</h3>
+            <p>Precio: $1869,00</p>
             <button>Agregar al carrito</button>
         </div>
 
-        <div class="producto">
-            <img src="img/pc4.webp" alt="Producto 4">
-            <h3>Producto 2</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <p>Precio: $49.99</p>
-            <button>Agregar al carrito</button>
-        </div>
+        <div id="carrito">
+            <h2>Carrito de compras</h2>
+            <p>Total: <span id="precio-total">$0.00</span></p>
+            <label for="codigo-descuento">Código de descuento:</label>
+            <input type="text" id="codigo-descuento">
+            <button id="aplicar-descuento">Aplicar descuento</button>
+            <h3>Productos en el carrito:</h3>
+            <ul id="productos-carrito"></ul>
+          </div>
 
-        <div class="producto">
-            <img src="img/pc5.webp" alt="Producto 5">
-            <h3>Producto 2</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <p>Precio: $49.99</p>
-            <button>Agregar al carrito</button>
-        </div>
-
-        <div class="producto">
-            <img src="img/pc6.webp" alt="Producto 6">
-            <h3>Producto 2</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <p>Precio: $49.99</p>
-            <button>Agregar al carrito</button>
-        </div>
-        
-        <div class="producto">
-            <img src="img/pc7.webp" alt="Producto 7">
-            <h3>Producto 2</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <p>Precio: $49.99</p>
-            <button>Agregar al carrito</button>
-        </div>
-
-        <div class="producto">
-            <img src="img/pc8.webp" alt="Producto 8">
-            <h3>Producto 2</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <p>Precio: $49.99</p>
-            <button>Agregar al carrito</button>
-        </div>
         </div>
     </section>
 

@@ -14,6 +14,7 @@ header {
 nav {
     background-color: #f2f2f2;
     padding: 10px;
+    
 }
 
 nav ul {
@@ -66,6 +67,35 @@ nav ul li a:hover {
     width: 100%;
     height: auto;
 }
+
+.producto-imagenes {
+    position: relative;
+}
+
+.producto-imagenes img {
+    display: none;
+}
+
+.prev-arrow,
+.next-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+.prev-arrow {
+    left: 10px;
+}
+
+.next-arrow {
+    right: 10px;
+}
+
 
 .producto h3 {
     margin-top: 10px;
